@@ -50,7 +50,7 @@ function getData() {
         var dni = document.getElementById("dni").value;
         for (let index = 0; index < values.length; index++) {
             if (values[index][0] == dni) {
-                window.location.href = './pages/formulario.html';
+                window.location.href = 'formulario.html';
             }
 
         }
