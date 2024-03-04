@@ -360,7 +360,7 @@ function cambiarClase() {
     const anchoPantalla = document.documentElement.clientWidth;
 
     if (anchoPantalla < 1000) {
-        const elementos = document.querySelectorAll(".cambioPantalla");
+        const elementos = document.querySelectorAll(".csambioPantalla");
         console.log(anchoPantalla);
         // Recorre la lista de elementos y haz lo que necesites
         elementos.forEach((elemento) => {

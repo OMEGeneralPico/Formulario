@@ -13,20 +13,20 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="/estilo.css">
 </head>
 
 <body>
-    <div id="formularioModulo" style="display: block;">
+    <div id="formularioModulo constainer" style="display: block;">
         <div id="logo" class="cambioPantalla">
 
-            <div class="col-6"> <img src="picoletra 4.png"
+            <div class="col-6"> <img src="/picoletra 4.png"
                     class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
                     alt="">
             </div>
         </div>
 
-        <div class="container-fluid cambioPantalla" id="Box">
+        <div class="constainer " id="Box">
 
             <div class="row">
                 <div class="col-sm-12">
@@ -39,13 +39,13 @@
                     <form class="form" id="form" method="POST">
                         <div class="row">
                             <div class="col-6"> <label for="nombrePersona" class="mr-sm-2">Nombre</label>
-                                <input type="text" class="input form-control mb-2" placeholder="" name="nombrePersona"
-                                    id="Nombre" required>
+                                <input type="text" class="input form-control form-control-lg mb-2" placeholder=""
+                                    name="nombrePersona" id="Nombre" required>
                             </div>
                             <div class="col-6">
                                 <label for="apellidoPersona" class="mr-sm-2">Apellido</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="apellidoPersona"
-                                    id="Apellido" required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="apellidoPersona" id="Apellido" required>
                             </div>
                         </div>
                         <div class="row">
@@ -62,41 +62,41 @@
                         <div class="row">
                             <div class="col-2">
                                 <label for="callePersona" class="mr-sm-2">Calle</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="callePersona"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="callePersona" required>
                             </div>
                             <div class="col-2">
                                 <label for="callePersonaAledaña" class="mr-sm-2">Entre</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="callePersonaAledaña"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="callePersonaAledaña" required>
                             </div>
                             <div class="col-2">
                                 <label for="callePersonaAledaña2" class="mr-sm-2">Y</label>
-                                <input type="string" class="form-control mb-2" placeholder=""
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
                                     name="callePersonaAledaña2" required>
                             </div>
                             <div class="col-2">
                                 <label for="numeroCasaPersona" class="mr-sm-2">Numero</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="numeroCasaPersona"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="numeroCasaPersona" required>
                             </div>
                             <div class="col-4">
                                 <label for="barrioPersona" class="mr-sm-2">Barrio</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="barrioPersona"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="barrioPersona" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6">
                                 <label for="telefonoGarantia" class="mr-sm-2">Telefono</label>
-                                <input type="text" class="form-control mb-2" placeholder="" id="telefonoPersona"
-                                    required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    id="telefonoPersona" required>
                             </div>
                             <div class="col-6">
                                 <label for="correoPersona" class="mr-sm-2">Correo</label>
 
-                                <input type="email" class="input form-control mb-2" placeholder="" name="correoPersona"
-                                    required>
+                                <input type="email" class="input form-control form-control-lg mb-2" placeholder=""
+                                    name="correoPersona" required>
                             </div>
                         </div>
 
@@ -112,20 +112,23 @@
                         <div class="row">
                             <div class="col-12">
                                 <label for="RZPersona" class="mr-sm-2">Razon Social / Nombre de la Empresa</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="RZPersona" required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="RZPersona" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-5">
                                 <label for="DNIPersona" class="mr-sm-2">DNI</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="DNIPersona" required>
-                                <input type="text" class="form-control mb-2" placeholder="" name="DNI Constancia"
-                                    id="DNIConstanciaForm" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="DNIPersona" required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="DNI Constancia" id="DNIConstanciaForm" style="display: none;">
                             </div>
-                            <div class="col-7  align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder="" name="urlCuit"
-                                    style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+
+                            <div class="col-7 d-flex align-items-center">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                    name="urlCuit" style="display: none;">
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="DNIConstancia" required>
                             </div>
 
@@ -135,14 +138,15 @@
                         <div class="row">
                             <div class="col-5">
                                 <label for="CUITPersona" class="mr-sm-2">CUIT</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="CUITPersona" required>
-                                <input type="text" class="form-control mb-2" placeholder="" id="CUITConstanciaForm"
-                                    name="CUIT Constancia" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="CUITPersona" required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    id="CUITConstanciaForm" name="CUIT Constancia" style="display: none;">
                             </div>
                             <div class="col-7 d-flex align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder="" name="urlCuit"
-                                    style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="urlCuit" style="display: none;">
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="CUITConstancia" required>
 
                             </div>
@@ -153,14 +157,15 @@
                         <div class="row">
                             <div class="col-5">
                                 <label for="CBUPersona" class="mr-sm-2">CBU</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="CBUPersona" required>
-                                <input type="text" class="form-control mb-2" placeholder="" name="CBU Constancia"
-                                    id="CBUConstanciaForm" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="CBUPersona" required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="CBU Constancia" id="CBUConstanciaForm" style="display: none;">
                             </div>
                             <div class="col-7 d-flex align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder="" name="urlCuit"
-                                    style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="urlCuit" style="display: none;">
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="CBUConstancia">
                             </div>
 
@@ -186,9 +191,9 @@
 
                             </div>
                             <div class="col-4 d-flex align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder="" name="IIBB Constancia"
-                                    id="IIBBConstanciaForm" style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="IIBB Constancia" id="IIBBConstanciaForm" style="display: none;">
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="IIBBConstancia" required>
                             </div>
                         </div><br>
@@ -198,10 +203,10 @@
 
                             </div>
                             <div class="col-4 d-flex align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder=""
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                     name="Habilitacion Constancia" id="HabilitacionConstanciaForm"
                                     style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="HabilitacionConstancia" required>
                             </div>
                         </div><br>
@@ -211,9 +216,9 @@
 
                             </div>
                             <div class="col-4 d-flex align-items-center">
-                                <input type="text" class="form-control mb-2" placeholder="" name="LocacionConstancia"
-                                    id="LocacionConstanciaForm" style="display: none;">
-                                <input type="file" class="seleccionador form-control" multiple="false"
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="LocacionConstancia" id="LocacionConstanciaForm" style="display: none;">
+                                <input type="file" class="seleccionador form-control form-control-lg" multiple="false"
                                     id="LocacionConstancia" required>
                             </div>
                         </div><br><br>
@@ -277,16 +282,18 @@
                                 <div class="col-12">
                                     <label for="inversionProyecto" class="mr-sm-2">Monto total de la inversion
                                         (Estimacion)</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" id="inversionProyecto"
-                                        name="inversionProyecto" required>
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        id="inversionProyecto" name="inversionProyecto" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
                                     <label for="empleadoProyecto">¿Contratara empleados?:</label><br> <input
-                                        type="radio" name="empleadoProyecto" id="si" value="si" required>
-                                    <label for="empleadoProyecto">Si</label>
-                                    <input type="radio" name="empleadoProyecto" id="no" value="no" required>
+                                        type="radio" style="transform: scale(1.5);" name="empleadoProyecto" id="si"
+                                        value="si" required>
+                                    <label for="empleadoProyecto" style="margin-right: 0.5vw;">Si</label>
+                                    <input type="radio" style="transform: scale(1.5);" name="empleadoProyecto" id="no"
+                                        value="no" required>
                                     <label for="empleadoProyecto">No</label>
 
 
@@ -314,12 +321,12 @@
                                 Equipamiento a comprar
                             </div>
                             <div class="col-sm-12">
-                                <input type="text" class="form-control mb-2" placeholder="a" id="EqupamientoDesc"
-                                    name="EqupamientoDesc" value="3" style="display: none;">
-                                <input type="text" class="form-control mb-2" placeholder="a" id="EqupamientoCant"
-                                    name="EqupamientoCant" value="2" style="display: none;">
-                                <input type="text" class="form-control mb-2" placeholder="a" id="EqupamientoPrecio"
-                                    name="EqupamientoPrecio" value="3" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                    id="EqupamientoDesc" name="EqupamientoDesc" value="3" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                    id="EqupamientoCant" name="EqupamientoCant" value="2" style="display: none;">
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                    id="EqupamientoPrecio" name="EqupamientoPrecio" value="3" style="display: none;">
                                 <table class="table" id="myTable">
                                     <thead>
                                         <tr>
@@ -332,15 +339,16 @@
                                     </thead>
                                     <tbody id="tablaEquipo">
                                         <tr>
-                                            <td> <input type="text" class="form-control mb-2" placeholder=""
-                                                    id="DetalleEquipamiento">
+                                            <td> <input type="text" class="form-control form-control-lg mb-2"
+                                                    placeholder="" id="DetalleEquipamiento">
                                             </td>
-                                            <td> <input type="text" class="form-control mb-2" placeholder=""
-                                                    id="CantidadEquipamiento"></td>
-                                            <td><input type="text" class="form-control mb-2" placeholder=""
-                                                    id="PrecioEquipamiento">
+                                            <td> <input type="text" class="form-control form-control-lg mb-2"
+                                                    placeholder="" id="CantidadEquipamiento"></td>
+                                            <td><input type="text" class="form-control form-control-lg mb-2"
+                                                    placeholder="" id="PrecioEquipamiento">
                                             </td>
-                                            <td> <input type="file" class="comprobante Equipamiento form-control"
+                                            <td> <input type="file"
+                                                    class="comprobante Equipamiento form-control form-control-lg"
                                                     multiple="false"></td>
 
                                         </tr>
@@ -358,12 +366,12 @@
                             Insumos a comprar
                         </div>
                         <div class="col-sm-12">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="InsumosDesc"
-                                name="InsumosDesc" value="3" style="display: none;">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="InsumosCant"
-                                name="InsumosCant" value="2" style="display: none;">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="InsumosPrecio"
-                                name="InsumosPrecio" value="3" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                id="InsumosDesc" name="InsumosDesc" value="3" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                id="InsumosCant" name="InsumosCant" value="2" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                id="InsumosPrecio" name="InsumosPrecio" value="3" style="display: none;">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -376,14 +384,15 @@
                                 </thead>
                                 <tbody id="tablaInsumos">
                                     <tr>
-                                        <td> <input type="text" class="form-control mb-2" placeholder=""
+                                        <td> <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="DetalleInsumos"></td>
-                                        <td> <input type="text" class="form-control mb-2" placeholder=""
+                                        <td> <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="CantidadInsumos"></td>
-                                        <td><input type="text" class="form-control mb-2" placeholder=""
+                                        <td><input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="PrecioInsumos">
                                         </td>
-                                        <td> <input type="file" class="comprobante Equipamiento form-control"
+                                        <td> <input type="file"
+                                                class="comprobante Equipamiento form-control form-control-lg"
                                                 multiple="false"></td>
 
                                     </tr>
@@ -403,12 +412,12 @@
                             Otros (inversion en materiales, mano de obra, gastos de refacción)
                         </div>
                         <div class="col-sm-12">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="OtrosDesc" name="OtrosDesc"
-                                value="3" style="display: none;">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="OtrosCant" name="OtrosCant"
-                                value="2" style="display: none;">
-                            <input type="text" class="form-control mb-2" placeholder="a" id="OtrosPRecio"
-                                name="OtrosPRecio" value="3" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a" id="OtrosDesc"
+                                name="OtrosDesc" value="3" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a" id="OtrosCant"
+                                name="OtrosCant" value="2" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a"
+                                id="OtrosPRecio" name="OtrosPRecio" value="3" style="display: none;">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -421,16 +430,17 @@
                                 </thead>
                                 <tbody id="tablaOtros">
                                     <tr>
-                                        <td> <input type="text" class="form-control mb-2" placeholder=""
+                                        <td> <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="DetalleOtros">
                                         </td>
-                                        <td> <input type="text" class="form-control mb-2" placeholder=""
+                                        <td> <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="CantidadOtros">
                                         </td>
-                                        <td><input type="text" class="form-control mb-2" placeholder=""
+                                        <td><input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                                 id="PrecioOtros">
                                         </td>
-                                        <td> <input type="file" class="comprobante Equipamiento form-control"
+                                        <td> <input type="file"
+                                                class="comprobante Equipamiento form-control form-control-lg"
                                                 multiple="false"></td>
 
                                     </tr>
@@ -451,8 +461,8 @@
                         </div><br>
                         <div class="row">
                             <b>Zonas de mercado</b>
-                            <input type="text" class="form-control mb-2" placeholder="a" id="zonaResp" name="zonaResp"
-                                value="3" style="display: none;">
+                            <input type="text" class="form-control form-control-lg mb-2" placeholder="a" id="zonaResp"
+                                name="zonaResp" value="3" style="display: none;">
                             <div class="col-sm-12">
                                 <input type="checkbox" class="form-check-input" id="Local" name="zona" value="Local">
                                 <label class="form-check-label" for="Local">Local</label>
@@ -487,8 +497,8 @@
 
                             </div>
                         </div><br>
-                        <input type="text" class="form-control mb-2" placeholder="a" id="MetaResp" name="MetaResp"
-                            value="3" style="display: none;">
+                        <input type="text" class="form-control form-control-lg mb-2" placeholder="a" id="MetaResp"
+                            name="MetaResp" value="3" style="display: none;">
                         <div class="col-12">
                             <label for="competencia"><b> Competencia: </b></label><br>
 
@@ -531,13 +541,14 @@
                                             class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top" title="Declaracion Jurada de Ingresos Brutos"></i>
                                     </label>
-                                    <input type="text" class="form-control mb-2" placeholder="" id="ingresosMarcha"
-                                        name="ingresosMarcha">
-                                    <input type="text" class="form-control mb-2" placeholder="" id="ingresosMarcha"
-                                        name="MarchaForm" style="display: none;">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        id="ingresosMarcha" name="ingresosMarcha">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        id="ingresosMarcha" name="MarchaForm" style="display: none;">
                                 </div>
                                 <div class="col-6 d-flex align-items-center">
-                                    <input type="file" class="DDJJ Marcha form-control" multiple="false" id="Marcha">
+                                    <input type="file" class="DDJJ Marcha form-control form-control-lg" multiple="false"
+                                        id="Marcha">
                                 </div>
 
 
@@ -545,19 +556,22 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="GastosEstructura" class="mr-sm-2">Gastos anuales de estructura</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="GastosEstructura">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="GastosEstructura">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
                                     <label for="GastoMP" class="mr-sm-2">Gastos en insumos / materias primas</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="GastoMP">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="GastoMP">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
                                     <label for="GastoPersonal" class="mr-sm-2">Gastos anuales en personal</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="GastoPersonal">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="GastoPersonal">
                                 </div>
                             </div>
                         </div><br>
@@ -569,43 +583,45 @@
                         <b>Primer Garante</b>
                         <div class="row">
                             <div class="col-6"> <label for="nombreGarantia" class="mr-sm-2">Nombre</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="nombreGarantia"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="nombreGarantia" required>
                             </div>
                             <div class="col-6">
                                 <label for="apellidoGarantia" class="mr-sm-2">Apellido</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="apellidoGarantia"
-                                    required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="apellidoGarantia" required>
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="cuitGarantia" class="mr-sm-2">CUIT/CUIL</label>
-                            <input type="string" class="form-control mb-2" placeholder="" name="cuitGarantia" required>
+                            <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                name="cuitGarantia" required>
                         </div>
                         <div class="row">
                             <div class="col-2">
                                 <label for="CalleGarantia" class="mr-sm-2">Calle</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="CalleGarantia"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="CalleGarantia" required>
                             </div>
                             <div class="col-2">
                                 <label for="EntreGarantia" class="mr-sm-2">Entre</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="EntreGarantia"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="EntreGarantia" required>
                             </div>
                             <div class="col-2">
                                 <label for="EntreGarantia2" class="mr-sm-2">Y</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="YGarantia" required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="YGarantia" required>
                             </div>
                             <div class="col-2">
                                 <label for="alturaGarantia" class="mr-sm-2">Numero</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="alturaGarantia"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="alturaGarantia" required>
                             </div>
                             <div class="col-4">
                                 <label for="barrioGarantia" class="mr-sm-2">Barrio</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="barrioGarantia"
-                                    required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="barrioGarantia" required>
                             </div>
                         </div>
                         <div class="row">
@@ -620,13 +636,13 @@
                         <div class="row">
                             <div class="col-6">
                                 <label for="telefonoGarantia" class="mr-sm-2">Telefono</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="telefonoGarantia"
-                                    required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="telefonoGarantia" required>
                             </div>
                             <div class="col-6">
                                 <label for="pwd" class="mr-sm-2">Correo</label>
-                                <input type="email" class="form-control mb-2" placeholder="" name="correoGarantia"
-                                    required>
+                                <input type="email" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="correoGarantia" required>
                             </div><br>
                             <div class="row">
                                 <div class="col-12">
@@ -655,14 +671,15 @@
                                             class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top"
                                             title="Categoria empleado con mas de dos años de antigüedad laboral o categoria de Monotributo"></i></label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="CategoriaGarante">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="CategoriaGarante">
                                 </div>
                             </div>
 
                             <div class="col-5">
                                 <label for="ActividadGarante" class="mr-sm-2">Actividad Economica</label>
-                                <input type="text" class="form-control mb-2" placeholder="" name="ActividadGarante"
-                                    required>
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="ActividadGarante" required>
 
                             </div>
                             <div class="row">
@@ -671,12 +688,14 @@
                                             class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top"
                                             title="Declaracion Jurada de Ingresos Brutos"></i></label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="IngresosGarante">
-                                    <input type="text" class="form-control mb-2 " placeholder="" name="DDJJGarante"
-                                        id="DDJJGarante" style="display: none;">
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="IngresosGarante">
+                                    <input type="text" class="form-control form-control-lg mb-2 " placeholder=""
+                                        name="DDJJGarante" id="DDJJGarante" style="display: none;">
                                 </div>
                                 <div class="col-6 d-flex align-items-center">
-                                    <input type="file" class="DDJJ form-control" multiple="false" id="GaranteDecla">
+                                    <input type="file" class="DDJJ form-control form-control-lg" multiple="false"
+                                        id="GaranteDecla">
                                 </div>
 
                             </div>
@@ -686,15 +705,15 @@
                                 </div>
                             </div>
                             <div class="col-4"><label for="NombreEmpleadorGarante" class="mr-sm-2">Nombre</label>
-                                <input type="text" class="form-control mb-2" placeholder=""
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                     name="NombreEmpleadorGarante">
                             </div>
                             <div class="col-4"><label for="ApellidoEmpleadorGarante" class="mr-sm-2">Apellido</label>
-                                <input type="text" class="form-control mb-2" placeholder=""
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                     name="ApellidoEmpleadorGarante">
                             </div>
                             <div class="col-4"><label for="CUITEmpleadorGarante" class="mr-sm-2">CUIT/CUIL</label>
-                                <input type="text" class="form-control mb-2" placeholder=""
+                                <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                     name="CUITEmpleadorGarante"><br><br>
                             </div>
                             <div class="row"><br>
@@ -704,45 +723,45 @@
                             </div>
                             <div class="row">
                                 <div class="col-6"> <label for="nombreGarantia" class="mr-sm-2">Nombre</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="nombreGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="nombreGarantia2" required>
                                 </div>
                                 <div class="col-6">
                                     <label for="apellidoGarantia" class="mr-sm-2">Apellido</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="apellidoGarantia2"
-                                        required>
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="apellidoGarantia2" required>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <label for="cuitGarantia" class="mr-sm-2">CUIT/CUIL</label>
-                                <input type="string" class="form-control mb-2" placeholder="" name="cuitGarantia2"
-                                    required>
+                                <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                    name="cuitGarantia2" required>
                             </div>
                             <div class="row">
                                 <div class="col-2">
                                     <label for="CalleGarantia" class="mr-sm-2">Calle</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="CalleGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="CalleGarantia2" required>
                                 </div>
                                 <div class="col-2">
                                     <label for="EntreGarantia" class="mr-sm-2">Entre</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="EntreGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="EntreGarantia2" required>
                                 </div>
                                 <div class="col-2">
                                     <label for="EntreGarantia2" class="mr-sm-2">Y</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="YGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="YGarantia2" required>
                                 </div>
                                 <div class="col-2">
                                     <label for="alturaGarantia" class="mr-sm-2">Numero</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="alturaGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="alturaGarantia2" required>
                                 </div>
                                 <div class="col-4">
                                     <label for="barrioGarantia" class="mr-sm-2">Barrio</label>
-                                    <input type="string" class="form-control mb-2" placeholder="" name="barrioGarantia2"
-                                        required>
+                                    <input type="string" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="barrioGarantia2" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -757,13 +776,13 @@
                             <div class="row">
                                 <div class="col-6">
                                     <label for="telefonoGarantia" class="mr-sm-2">Telefono</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="telefonoGarantia2"
-                                        required>
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="telefonoGarantia2" required>
                                 </div>
                                 <div class="col-6">
                                     <label for="pwd" class="mr-sm-2">Correo</label>
-                                    <input type="email" class="form-control mb-2" placeholder="" name="correoGarantia2"
-                                        required>
+                                    <input type="email" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="correoGarantia2" required>
                                 </div><br><br><br><br>
                                 <div class="row">
                                     <div class="col-12">
@@ -790,15 +809,15 @@
                                             class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top"
                                             title="Categoria empleado con mas de dos años de antigüedad laboral o categoria de Monotributo"></i></label>
-                                    <input type="text" class="form-control mb-2" placeholder=""
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                         name="CategoriaGarante2">
 
                                 </div>
 
                                 <div class="col-6">
                                     <label for="ActividadGarante" class="mr-sm-2">Actividad Economica</label>
-                                    <input type="text" class="form-control mb-2" placeholder="" name="ActividadGarante2"
-                                        required>
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                        name="ActividadGarante2" required>
 
                                 </div>
                                 <div class="row">
@@ -807,13 +826,14 @@
                                                 class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                                 data-placement="top"
                                                 title="Declaracion Jurada de Ingresos Brutos"></i></label>
-                                        <input type="text" class="form-control mb-2" placeholder=""
+                                        <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                             name="IngresosGarante2">
-                                        <input type="text" class="form-control mb-2" placeholder="" name="DDJJGarante2"
-                                            id="DDJJGarante2" style="display: none;">
+                                        <input type="text" class="form-control form-control-lg mb-2" placeholder=""
+                                            name="DDJJGarante2" id="DDJJGarante2" style="display: none;">
                                     </div>
                                     <div class="col-6 d-flex align-items-center">
-                                        <input type="file" class="DDJJ Marcha form-control" multiple="false">
+                                        <input type="file" class="DDJJ Marcha form-control form-control-lg"
+                                            multiple="false">
                                     </div>
 
 
@@ -824,16 +844,16 @@
                                     </div>
                                 </div>
                                 <div class="col-4"><label for="NombreEmpleadorGarante" class="mr-sm-2">Nombre</label>
-                                    <input type="text" class="form-control mb-2" placeholder=""
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                         name="NombreEmpleadorGarante2">
                                 </div>
                                 <div class="col-4"><label for="ApellidoEmpleadorGarante"
                                         class="mr-sm-2">Apellido</label>
-                                    <input type="text" class="form-control mb-2" placeholder=""
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                         name="ApellidoEmpleadorGarante2">
                                 </div>
                                 <div class="col-4"><label for="CUITEmpleadorGarante" class="mr-sm-2">CUIT/CUIL</label>
-                                    <input type="text" class="form-control mb-2" placeholder=""
+                                    <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                         name="CUITEmpleadorGarante2"><br><br><br><br>
                                 </div>
                                 <div class="row">
@@ -901,9 +921,9 @@
 </body>
 
 <script src="https://apis.google.com/js/api.js"></script>
-<script type="module" src="./firebase.js"></script>
-<script type="module" src="dates.js"></script>
-<script src="leer.js"></script>
+<script type="module" src="/firebase.js"></script>
+<script type="module" src="/dates.js"></script>
+<script src="/leer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>

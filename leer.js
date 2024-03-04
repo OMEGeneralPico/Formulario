@@ -3,7 +3,7 @@ async function readJson() {
     const xhr = new XMLHttpRequest();
 
     // Abre la solicitud
-    xhr.open('GET', 'cod.json');
+    xhr.open('GET', '/cod.json');
 
     // Espera a que la solicitud se complete
     const response = await new Promise((resolve, reject) => {
@@ -50,7 +50,7 @@ function getData() {
         var dni = document.getElementById("dni").value;
         for (let index = 0; index < values.length; index++) {
             if (values[index][0] == dni) {
-                window.location.href = 'formulario.html';
+                window.location.href = './pages/formulario.html';
             }
 
         }
