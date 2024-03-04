@@ -187,6 +187,7 @@ function addDiv(tipo) {
     inputText.setAttribute("type", "text");
     inputText.setAttribute("id", "cell1Input");
     inputText.classList.add("form-control");
+    inputText.classList.add("form-control-lg");
     cell1.textContent = ""; // Elimina el texto "Nuevo dato 1"
     cell1.appendChild(inputText); // Agrega el input text a la celda
     newRow.appendChild(cell1);
@@ -197,6 +198,7 @@ function addDiv(tipo) {
     inputText2.setAttribute("type", "text");
     inputText2.setAttribute("id", "cell2Input");
     inputText2.classList.add("form-control");
+    inputText2.classList.add("form-control-lg");
     cell2.appendChild(inputText2);
     newRow.appendChild(cell2);
 
@@ -206,6 +208,7 @@ function addDiv(tipo) {
     inputText3.setAttribute("type", "text");
     inputText3.setAttribute("id", "cell3Input");
     inputText3.classList.add("form-control");
+    inputText3.classList.add("form-control-lg");
     cell3.appendChild(inputText3);
     newRow.appendChild(cell3);
 
@@ -215,6 +218,8 @@ function addDiv(tipo) {
     button.setAttribute("type", "file");
     button.setAttribute("class", "comprobante " + tipo);
     button.setAttribute("multiple", "false");
+    button.classList.add("form-control");
+    button.classList.add("form-control-lg");
     console.log(button.classList);
     cell4.appendChild(button);
 

@@ -18,15 +18,18 @@
 
 <body>
     <div id="formularioModulo constainer" style="display: block;">
-        <div id="logo" class="cambioPantalla">
+        <div id="logo" class="" style=" align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
 
             <div class="col-6"> <img src="/picoletra 4.png"
                     class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
-                    alt="">
+                    alt="" style="height: 90%; padding-top: 9vh;">
             </div>
         </div>
 
-        <div class="constainer " id="Box">
+        <div class="constainer" style="padding: 5vh;" id="Box">
 
             <div class="row">
                 <div class="col-sm-12">
@@ -674,14 +677,15 @@
                                     <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                         name="CategoriaGarante">
                                 </div>
-                            </div>
+                          
 
-                            <div class="col-5">
+                            <div class="col-6">
                                 <label for="ActividadGarante" class="mr-sm-2">Actividad Economica</label>
                                 <input type="text" class="form-control form-control-lg mb-2" placeholder=""
                                     name="ActividadGarante" required>
 
                             </div>
+                        </div>
                             <div class="row">
                                 <div class="col-6">
                                     <label for="IngresosGarante" class="mr-sm-2">Ingresos anuales <i
@@ -804,7 +808,7 @@
 
                                     </div>
                                 </div><br><br><br>
-                                <div class="col-6"><br>
+                                <div class="col-6">
                                     <label for="CategoriaGarante" class="mr-sm-2">Categoria <i
                                             class="fas fa-question-circle" aria-hidden="true" data-toggle="tooltip"
                                             data-placement="top"
@@ -885,12 +889,6 @@
             </div>
 
         </div>
-        <div class="cambioPantalla" style="padding-left: 0;padding-right: 0;background-color: transparent;">
-            <div id="cierre">
-
-            </div>
-        </div>
-
         <div>Hola</div>
 
         <div id="message" style="
